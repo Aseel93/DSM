@@ -6,7 +6,8 @@ Design Structure Matrices (DSMs) are square matrices that display relationships 
 # Data
 To achieve the goals of this research project and develop the DSM generator, a significant amount of data will be needed for the purpose of training an algorithm. The dataset includes more than 2000 DSMs extracted from a repository published by Oregon State [Source](http://ftest.mime.oregonstate.edu/repo/browse/). However, the DSMs downloaded from the online repository are unlabeled and do not show an indication for their complexity. While there are many studies that investigate measures of complexity, very few define complexity for directed graphs. One such study proposes a polynomial-based approach to measuring complexity of directed graphs [Paper Link](https://par.nsf.gov/servlets/purl/10165220).
 
-![](https://dsmweborg.files.wordpress.com/2019/10/wuerfel_gedreht_rgb.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/3/36/A_sample_Design_Structure_Matrix_%28DSM%29.png)
+
 _Design Structure Matrix_ [1]
 
 
@@ -17,6 +18,7 @@ We used Variational Auto-Encoders (VAEs) which could generate new data from the 
 To apply VGAE, we used adjacency matrix (A) (represents DSM in our project) to represent the input graph, feature matrix (X) to present the features of each node from the input graph. The encoder of VGAE consists of Graph Convolutional Networks (GCNs). It takes an adjacency matrix and a feature matrix as input and generates the latent variable (Z) as output.
 
 ![](https://miro.medium.com/max/1224/1*CijfkQ_NMDKsYbsN6FqCRA.jpeg)
+
 _The Architecture of the Variational Graph Autoencoder_ [2]
 
 # Results
@@ -30,6 +32,5 @@ __A final section summarizes big takeaways in a concise format__
 # References
 
 1. https://images7.memedroid.com/images/UPLOADED185/563b5bffa94d6.jpeg
-2. https://towardsdatascience.com/tutorial-on-variational-graph-auto-encoders-da9333281129#:~:text=Variational%20graph%20autoencoder%20%28VGAE%29%20applies%20the%20idea%20of,yet%20to%20see%20a%20detailed%20tutorial%20on%20VGAE.
-3. https://miro.medium.com/max/1224/1*CijfkQ_NMDKsYbsN6FqCRA.jpeg
-4. 
+2. https://miro.medium.com/max/1224/1*CijfkQ_NMDKsYbsN6FqCRA.jpeg
+3. https://upload.wikimedia.org/wikipedia/commons/3/36/A_sample_Design_Structure_Matrix_%28DSM%29.png
