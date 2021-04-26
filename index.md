@@ -1,8 +1,4 @@
----
-title: Puppies Are Cute
-description: Chris McComb (<a href="uum209@psu.edu">uum209@psu.edu</a>)
----
-![](https://www.letuspublish.com/wp-content/uploads/2017/04/Cute-little-puppy-sleeping-in-basket-wallpaper.jpg)
+![](https://dsmweborg.files.wordpress.com/2019/10/wuerfel_gedreht_rgb.jpg)
 _Puppies are very cute_ [1]
 
 # Why Are Puppies So Cute?
