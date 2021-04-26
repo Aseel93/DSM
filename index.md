@@ -10,15 +10,10 @@ To achieve the goals of this research project and develop the DSM generator, a s
 [Here is a link to another page](./another_page) that is also part of your site.
 
 # Methodology
-__A third section talks about your results__. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We used Variational Auto-Encoders (VAEs) which could generate new data from the original source dataset. The main idea of VAE is that it embeds the input X to a distribution rather than a point and then a random sample Z is taken from the distribution rather than generated from encoder directly, but VAE deals only images. However, we cannot just apply the idea of VAE because graph-structured data are irregular. Each graph has a variable size of unordered nodes and each node in a graph has a different number of neighbors. In order to achieve our project purposes, we used Variational Graph Auto-Encoders (VGAEs) which applies VAE to graph structured data to generate new graphs.
+To apply VGAE, we used adjacency matrix (A) (represents DSM in our project) to represent the input graph, feature matrix (X) to present the features of each node from the input graph. The encoder of VGAE consists of Graph Convolutional Networks (GCNs). It takes an adjacency matrix and a feature matrix as input and generates the latent variable (Z) as output.
 
-![](https://www.thelabradorsite.com/wp-content/uploads/2018/07/small-dog-breed-long.jpg)
-_Visualization of smolness_ [3]
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-![](https://cdn.openupresources.org/uploads/pictures/7/7.8.C.17.Images.student.summary.01.png)
-_Smoller is correlated to cuter_ [4]
+![The Architecture of the Variational Graph Autoencoder](Picture 1.png)
 
 # Takeaways
 __A final section summarizes big takeaways in a concise format__
