@@ -2,3 +2,9 @@ theme: jekyll-theme-leap-day
 show_downloads: True
 title: Generating DSMs of Varying Complexities
 description: Aseel Khanfar & Fariha Azhar
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://deanattali.com"
