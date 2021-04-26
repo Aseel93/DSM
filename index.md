@@ -11,9 +11,6 @@ To achieve the goals of this research project and develop the DSM generator, a s
 
 _Design Structure Matrix_ [2]
 
-
-[Here is a link to another page](./another_page) that is also part of your site.
-
 # Methodology
 We used __Variational Auto-Encoders (VAEs)__ which could generate new data from the original source dataset. The main idea of VAE is that it embeds the input X to a distribution rather than a point and then a random sample Z is taken from the distribution rather than generated from encoder directly, but VAE deals only images. However, we cannot just apply the idea of VAE because graph-structured data are irregular. Each graph has a variable size of unordered nodes and each node in a graph has a different number of neighbors. In order to achieve our project purposes, we used __Variational Graph Auto-Encoders (VGAEs)__ which applies VAE to graph structured data to generate new graphs.
 To apply VGAE, we used adjacency matrix (A) (represents DSM in our project) to represent the input graph, feature matrix (X) to present the features of each node from the input graph. The encoder of VGAE consists of Graph Convolutional Networks (GCNs). It takes an adjacency matrix and a feature matrix as input and generates the latent variable (Z) as output [3].
