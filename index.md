@@ -23,7 +23,7 @@ _The Architecture of the Variational Graph Autoencoder_ [2]
 
 # Results
 
-# Takeaway
+# Takeaways
 
 # References
 
