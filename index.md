@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+---
+title: Puppies Are Cute
+description: Chris McComb (<a href="uum209@psu.edu">uum209@psu.edu</a>)
+---
+![](https://www.letuspublish.com/wp-content/uploads/2017/04/Cute-little-puppy-sleeping-in-basket-wallpaper.jpg)
+_Puppies are very cute_ [1]
 
-You can use the [editor on GitHub](https://github.com/Aseel93/DSM/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+# Why Are Puppies So Cute?
+__This first section is similar to the abstract for your report.__ Try to keep it short and to the point, but do make sure that you motivate the need for your project. To do so, follow the format shown in the [The Four Moves To Novelty](https://www.cmu.edu/gcc/handouts-and-resources/handouts/novelty-handout.pdf#:~:text=Establish%20Novelty%20With%20Four%20Rhetorical%20Moves%201%29%20Explain,4%29%20Fill%20that%20gap%20with%20the%20present%20research).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### Markdown
+# We Used Y Algorithm To Assess Puppy Cuteness
+__A second section says a little bit about your methodology.__ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![](https://images7.memedroid.com/images/UPLOADED185/563b5bffa94d6.jpeg)
+_Anatomy of a dog_ [2]
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+If helpful, you can include some example code:
+```Python
+good_canine = []
+for pupper in litter:
+    pupper.measure_smol()
+    pupper.give_treat()
+    good_canine.append(pupper)
 ```
+[Here is a link to another page](./another_page) that is also part of your site.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# We Learned That Puppies Are Cute Because They Are Smol
+__A third section talks about your results__. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### Jekyll Themes
+![](https://www.thelabradorsite.com/wp-content/uploads/2018/07/small-dog-breed-long.jpg)
+_Visualization of smolness_ [3]
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Aseel93/DSM/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### Support or Contact
+![](https://cdn.openupresources.org/uploads/pictures/7/7.8.C.17.Images.student.summary.01.png)
+_Smoller is correlated to cuter_ [4]
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Takeaways
+__A final section summarizes big takeaways in a concise format__
+- Puppies are cute
+- Smoler = cuter
+- Future work should investigate how smol is too smol
+
+# References
+__Don't foget references!__
+1. https://www.letuspublish.com/wp-content/uploads/2017/04/Cute-little-puppy-sleeping-in-basket-wallpaper.jpg
+2. https://images7.memedroid.com/images/UPLOADED185/563b5bffa94d6.jpeg
+3. https://www.thelabradorsite.com/wp-content/uploads/2018/07/small-dog-breed-long.jpg
+4. https://cdn.openupresources.org/uploads/pictures/7/7.8.C.17.Images.student.summary.01.png
