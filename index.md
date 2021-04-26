@@ -26,5 +26,5 @@ _The Architecture of the Variational Graph Autoencoder_ [4]
 # References
 1. https://dsmweborg.files.wordpress.com/2019/10/wuerfel_gedreht_rgb.jpg
 2. https://upload.wikimedia.org/wikipedia/commons/3/36/A_sample_Design_Structure_Matrix_%28DSM%29.png
-3. https://towardsdatascience.com/tutorial-on-variational-graph-auto-encoders-da9333281129#:~:text=Variational%20graph%20autoencoder%20%28VGAE%29%20applies%20the%20idea%20of,yet%20to%20see%20a%20detailed%20tutorial%20on%20VGAE.
-4. https://miro.medium.com/max/1224/1*CijfkQ_NMDKsYbsN6FqCRA.jpeg
+4. https://towardsdatascience.com/tutorial-on-variational-graph-auto-encoders-da9333281129#:~:text=Variational%20graph%20autoencoder%20%28VGAE%29%20applies%20the%20idea%20of,yet%20to%20see%20a%20detailed%20tutorial%20on%20VGAE.
+5. https://miro.medium.com/max/1224/1*CijfkQ_NMDKsYbsN6FqCRA.jpeg
