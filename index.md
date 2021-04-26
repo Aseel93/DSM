@@ -1,10 +1,7 @@
 ![](https://dsmweborg.files.wordpress.com/2019/10/wuerfel_gedreht_rgb.jpg)
-_Puppies are very cute_ [1]
 
-# Why Are Puppies So Cute?
-__This first section is similar to the abstract for your report.__ Try to keep it short and to the point, but do make sure that you motivate the need for your project. To do so, follow the format shown in the [The Four Moves To Novelty](https://www.cmu.edu/gcc/handouts-and-resources/handouts/novelty-handout.pdf#:~:text=Establish%20Novelty%20With%20Four%20Rhetorical%20Moves%201%29%20Explain,4%29%20Fill%20that%20gap%20with%20the%20present%20research).
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+# Summery 
+Design Structure Matrices (DSMs) are square matrices that display relationships between components of a system in a compact, visual, and analytically advantageous format. These matrices are typically used in the automotive, aerospace, and electronics industries for the purpose of improving system design and product architecture. The goal of this project is to use Machine Learning to develop a program that generates DSMs based on preferences provided by the user, like number of system components, system complexity, etc. Having access to substantial amounts of DSMs with varying complexities can be helpful to researchers as it can save time and resources by eliminating the need to scrape information from websites or repositories.
 
 # We Used Y Algorithm To Assess Puppy Cuteness
 __A second section says a little bit about your methodology.__ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
