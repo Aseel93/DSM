@@ -1,6 +1,6 @@
 ![](https://dsmweborg.files.wordpress.com/2019/10/wuerfel_gedreht_rgb.jpg)
 
-# Can Machine Learning be Used to Train an Algorithm to Generate Design Structure Matrices of Varying Complexities?
+# Can Machine Learning be Used to Generate DSMs of Varying Complexities?
 __Design Structure Matrices (DSMs)__ are square matrices that display relationships between components of a system in a compact, visual, and analytically advantageous format. These matrices are typically used in the automotive, aerospace, and electronics industries for the purpose of improving system design and product architecture. The goal of this project is to use Machine Learning to develop a program that generates DSMs based on preferences provided by the user, like number of system components, system complexity, etc. Having access to substantial amounts of DSMs with varying complexities can be helpful to researchers as it can save time and resources by eliminating the need to scrape information from websites or repositories.
 
 # Data
