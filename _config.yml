@@ -2,3 +2,5 @@ theme: jekyll-theme-leap-day
 show_downloads: True
 title: Generating DSMs of Varying Complexities
 description: Aseel Khanfar & Fariha Azhar
+header_pages:
+  - another_page.md
