@@ -25,13 +25,13 @@ _The Architecture of the Variational Graph Autoencoder_[4]
 
 __Variational Graph Auto-Encoders (VGAEs)__: VGAEs are similar to VAEs but differ in the inputs that they take in as shown in the figure above. This algorithm, similar to the VAE, is composed of two parts: an encoder and a decoder. The encoder is comrpised of two __Graph Convolutional Networks (GCNs)__, which take the adjacency matrix and the feature matrix of the dataset as inputs. These inputs are run through the first layer of the GCN, which outputs a feature matrix of lower dimension. This output is then used as input for the second GCN, which gives a mean and standard deviation value for the calculation of the latent varaible, _Z_. The decoder then takes the inner product between _Z_ along with the logisitc sigmoid function to generate a new dataset. The figure below visually represents this explanation.
 
-![image](https://user-images.githubusercontent.com/74516659/116258136-ad2cb300-a742-11eb-8a7e-97c8e226c861.png, width = "50")
+![image](https://user-images.githubusercontent.com/74516659/116258136-ad2cb300-a742-11eb-8a7e-97c8e226c861.png)
 
 _A visual breakdown of VGAEs_
 
 In order to achieve the purposes of this project, __Variational Graph Auto-Encoders (VGAEs)__ were used.
 
-# Implementing the Algorithms
+# Implementing the Algorithm
 The [Spektral](https://graphneural.network/) and [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html) were used to import the DSM dataset, pre-process the dataset, and train the VGAE model.
 
 Some trouble was encountered while reading the dataset into these libraries. To continue with the goal of this project however, a placeholder [dataset](https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html#torch_geometric.datasets.Planetoid) was used.
